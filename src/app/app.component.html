@@ -1,1 +1,9 @@
-<app-calculadora></app-calculadora>
+<app-calculadora  (salida)="sumar($event);"></app-calculadora>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+<app-resultado [resultado]="resultado"> </app-resultado>
+</div>
+</div>
+
+</div>
